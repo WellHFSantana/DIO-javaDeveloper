@@ -9,16 +9,16 @@ public class ResultadoEscolar {
 public static void main(String[] args) {
 
                      
-        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Digite a PRIMEIRA nota do aluno:");
-        double nota1 = sc.nextDouble();
+        double nota1 = scanner.nextDouble();
 
         System.out.println("Digite a SEGUNDA nota do aluno:");
-        double nota2 = sc.nextDouble();
+        double nota2 = scanner.nextDouble();
 
         System.out.println("Digite a TERCEIRA nota do aluno:");
-        double nota3 = sc.nextDouble();
+        double nota3 = scanner.nextDouble();
 
         double mediaAluno = (nota1 + nota2 + nota3) / 3;
 
